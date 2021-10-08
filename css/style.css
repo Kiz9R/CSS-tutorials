@@ -1,0 +1,39 @@
+h2 {
+  color: royalblue;
+  font-size: 30px;
+  width: 350px;
+  height: 40px;
+  background-color: rosybrown;
+}
+h1 {
+  color: aquamarine;
+  font-size: 50px;
+}
+p {
+  color: slateblue;
+  font-size: 1.5rem;
+  width: 100%; /* percentage depends on parent element in this case h2 
+}
+.outer {
+  /* color: white; */
+  background-color: black;
+  font-style: italic;
+}
+span {
+  text-transform: uppercase;
+  color: red;
+  background-color: black;
+}
+h3 {
+  font-size: 2rem; /*rem depends on root parent which in this case is HTML5*/
+}
+.banner {
+  width: 50vw; /*viewwidth adjusts to wimdow width*/
+  height: 50vh; /*viewheigth adjusts to window heigth*/
+  background-color: blueviolet;
+}
+.header {
+  width: 99vw;
+  height: 70vh;
+  background-color: red;
+}
