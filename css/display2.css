@@ -41,12 +41,16 @@ p {
   background: red;
   height: 200px;
   width: 30%;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
 .two {
   float: left;
   background: blue;
   height: 200px;
   width: 30%;
+  position: absolute;
 }
 .three {
   float: left;
