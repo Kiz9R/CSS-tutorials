@@ -16,6 +16,7 @@ p {
 /* MARGIN */
 * {
   margin: 0;
+  background-color: black;
 }
 h1 {
   margin-top: 30px;
@@ -34,7 +35,28 @@ h1 {
   border-style: solid;
   border-width: 10px;
   border-color: green;
+  border-radius: 30px;
 }
 p {
   border: 20px solid yellow;
+  border-radius: 30%;
+}
+.button {
+  margin: 3rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 2rem;
+  cursor: pointer;
+}
+#one {
+  border: 2px solid white;
+  background-color: red;
+}
+#two {
+  outline: 2px solid white;
+  background-color: blue;
+  outline-offset: -20px;
 }

@@ -1,0 +1,38 @@
+.block {
+  background: blue;
+  color: white;
+  /* display: inline; */
+  width: 150px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: 20px auto;
+}
+.inline {
+  background: black;
+  color: white;
+  /* display: block; */
+}
+body {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: armenian;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: black;
+  color: orange;
+  padding: 5px;
+  margin: 5px;
+  display: block;
+}
