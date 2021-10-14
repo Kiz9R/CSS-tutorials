@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .block {
   background: blue;
   color: white;
@@ -32,7 +37,40 @@ ul li a {
   letter-spacing: 2px;
   background: black;
   color: orange;
+  display: block;
   padding: 5px;
   margin: 5px;
-  display: block;
+  /* opacity: 0.75;
+  visibility: visible; */
+}
+.div div {
+  height: 100vh;
+  color: red;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .bigimg {
+  background: url("./big.jpeg");
+  background-repeat: round;
+  background-attachment: fixed;
+} */
+.bigimg {
+  background: linear-gradient(rgba(255, 255, 0, 0.3), rgba(255, 255, 0, 0.2)),
+    url("./big.jpeg") center/cover fixed no-repeat;
+}
+.smallimg {
+  background: url("./bigc.jpeg");
+  background-repeat: no-repeat;
+  /* background-repeat: space; */
+  background-position: center;
+}
+.folderimg {
+  background: url("../img/building.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+  background-attachment: fixed;
 }
