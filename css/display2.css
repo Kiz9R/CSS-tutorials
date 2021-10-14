@@ -1,10 +1,10 @@
-div {
+/* div {
   width: 150px;
-  height: 150px;
+  height: 150px;      Just remove the comment to see the gradient value
   display: flex;
   margin: 5px;
-}
-.one {
+} */
+/* .one {
   background: linear-gradient(red, blue);
 }
 .two {
@@ -18,4 +18,4 @@ div {
 }
 .five {
   background: linear-gradient(to top right, red, blue);
-}
+} */
