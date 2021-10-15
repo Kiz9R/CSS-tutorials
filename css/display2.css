@@ -58,3 +58,29 @@ p {
   height: 200px;
   width: 30%;
 }
+.banner {
+  background: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 576px) {
+  .banner {
+    background: red;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1520px) {
+  h1 {
+    color: aqua;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+  }
+}
