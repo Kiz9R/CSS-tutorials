@@ -1,0 +1,78 @@
+/* img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.banner {
+  margin: 20px;
+  width: 67vw;
+  height: 70vh;
+  border: 3px solid red;
+  position: relative;
+}
+.one {
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.two {
+  top: 20%;
+  left: 20%;
+  z-index: -1;
+}
+.three {
+  top: 40%;
+  left: 40%;
+  z-index: -2;
+} */
+p::before {
+  content: "hello ";
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  background: black;
+  /* display: inline-block; */
+}
+.banner {
+  width: 50vw;
+  margin: 100px auto;
+  position: relative;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  display: block;
+}
+div::before {
+  content: "";
+  border: 3px solid red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -50px;
+  left: -50px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+.banner::after {
+  content: "";
+  background: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+.banner:hover::after {
+  top: 10px;
+  left: 90px;
+}
+
+.banner:hover::before {
+  top: 40px;
+  left: 120px;
+}
