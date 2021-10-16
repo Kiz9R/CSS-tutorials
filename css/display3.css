@@ -25,14 +25,14 @@
   left: 40%;
   z-index: -2;
 } */
-p::before {
+/* p::before {
   content: "hello ";
   font-weight: bold;
   font-size: 2rem;
   color: red;
   background: black;
   /* display: inline-block; */
-}
+/*}
 .banner {
   width: 50vw;
   margin: 100px auto;
@@ -42,8 +42,8 @@ p::before {
 img {
   width: 100%;
   display: block;
-}
-div::before {
+} */
+/* div::before {
   content: "";
   border: 3px solid red;
   width: 100%;
@@ -75,4 +75,71 @@ div::before {
 .banner:hover::before {
   top: 40px;
   left: 120px;
+} */
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: black;
+  transition: all 1.5s linear;
+  cursor: crosshair;
+  /* transition-delay: 0.5s; */
+/* transition-timing-function: ease-in-out;
+  border-radius: 30%; */
+/* }
+.one {
+  background: red;
+  /* transform: scaleX(0.1);
+  transform: rotateZ(340deg); */
+/* }
+.two {
+  background: green;
+  /* transform: scaleY(0.1);
+  transform: rotateX(85deg); */
+/*}
+.three {
+  background: blue; */
+/* transform: scale(0.6, 0.5);
+  transform: rotateY(85deg); */
+/*}*/
+.transition {
+  width: 100px;
+  height: 100px;
+  background: black;
+  color: orange;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.transition:hover {
+  transform: translate(100px);
+}
+.animation {
+  background: black;
+  color: orange;
+  display: inline-block;
+  cursor: pointer;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+@keyframes move {
+  0% {
+    transform: translateX(25px);
+  }
+  25% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(75px);
+    background: red;
+    color: blue;
+  }
+  75% {
+    transform: translateX(-75px);
+  }
 }
