@@ -125,7 +125,7 @@ div:hover {
   cursor: pointer;
   animation-name: move;
   animation-duration: 10s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
 }
 @keyframes move {
   0% {
@@ -133,13 +133,36 @@ div:hover {
   }
   25% {
     transform: translateX(50px);
+    background: red;
   }
   50% {
     transform: translateX(75px);
-    background: red;
+
     color: blue;
   }
   75% {
-    transform: translateX(-75px);
+    transform: translateX(100px);
   }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+
+:root {
+  --orange: orange;
+  --black: black;
+  --transition: all 0.4s linear;
+}
+.heading {
+  color: var(--orange);
+}
+.second-heading {
+  display: inline-block;
+  background: var(--black);
+  color: var(--orange);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.second-heading:hover {
+  transform: translateX(100px);
 }
