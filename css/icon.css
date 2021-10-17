@@ -1,3 +1,12 @@
 .fa-atom {
   color: orange;
 }
+h1 {
+  background: black;
+  text-shadow: 90px 14px 3px red;
+  color: orange;
+}
+.box {
+  background: blue;
+  display: inline;
+}
